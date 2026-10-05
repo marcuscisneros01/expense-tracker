@@ -1,0 +1,39 @@
+[1mdiff --git a/tracker.py b/tracker.py[m
+[1mindex ac1f3c0..859aeff 100644[m
+[1m--- a/tracker.py[m
+[1m+++ b/tracker.py[m
+[36m@@ -1,4 +1,4 @@[m
+[31m-# Project: Expense Tracker - Installment 1   [m
+[32m+[m[32m# Project: Expense Tracker - Installment 2[m
+ # Author: Marcus M. Cisneros [m
+ # Description: Displays the landing page of a simple expense tracker.[m
+ [m
+[36m@@ -18,4 +18,26 @@[m [mprint( "  [4] Exit \t\t\t (coming soon)\n" )[m
+ [m
+ print("-" * 40)[m
+ print("Made by: Marcus M. Cisneros | Installment 1")[m
+[31m-print("=" * 40)[m
+\ No newline at end of file[m
+[32m+[m[32mprint("=" * 40)[m
+[32m+[m
+[32m+[m[32mname = input("\nWhat is your name? ")[m
+[32m+[m[32mprint(f"Welcome, {name}! Let's go log in two expenses ")[m
+[32m+[m
+[32m+[m[32mitem1 = input("\nFirst expense? ")[m
+[32m+[m[32mamount1 = float ( input("Amount? "))[m
+[32m+[m[32mitem2 = input("Second expense? ")[m
+[32m+[m[32mamount2 = float( input("Amount? "))[m
+[32m+[m
+[32m+[m[32mtotal = amount1 + amount2[m
+[32m+[m[32maverage = total / 2[m
+[32m+[m
+[32m+[m[32mprint("")[m
+[32m+[m[32mprint("-" * 40)[m
+[32m+[m[32mprint( "SUMMARY")[m
+[32m+[m[32mprint( f" - {item1}: \t\t ${amount1}")[m
+[32m+[m[32mprint( f" - {item2}: \t\t ${amount2}")[m
+[32m+[m[32mprint( f"Total spent: \t\t ${total}")[m
+[32m+[m[32mprint( f"Average: \t\t ${average}")[m
+[32m+[m
+[32m+[m[32mprint("-" * 40)[m
+[32m+[m[32mprint("Made by: Marcus M. Cisneros | Installment 2")[m
